@@ -9,3 +9,5 @@ build:
 
 package-install:
 	uv tool install dist/*.whl
+Lint:
+	uv run ruff check VD_games

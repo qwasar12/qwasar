@@ -1,1 +1,4 @@
-print("Welcome to the VD_games")
+from scripts import VD_games
+
+if __name__ == '__main__':
+    VD_games.main()
